@@ -38,6 +38,10 @@ repo_theme_dark: dark # https://github.com/stats-organization/github-stats-exten
 # See "Protecting email addresses from scrapers" in docs/CUSTOMIZE.md.
 protect_email: false
 
+scholar:
+  last_name: [Luo]
+  first_name: [Guibo]
+
 # Off by default: the free public github-profile-trophy instance is disabled
 # (its Vercel deployment answers HTTP 402 / DEPLOYMENT_DISABLED), so every trophy
 # image 404s. The project itself is still open source and free — self-host it and
