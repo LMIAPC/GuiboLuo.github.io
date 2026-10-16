@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://LMIAPC.github.io/sitemap.xml
+Sitemap: https://www.guiboluo.com/sitemap.xml
