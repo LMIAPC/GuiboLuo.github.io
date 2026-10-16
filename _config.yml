@@ -8,18 +8,23 @@ middle_name:
 last_name: Luo
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+description: >
+  Guibo Luo's academic homepage. Research in
+  Trustworthy AI, Medical Foundation Models,
+  Federated Learning, Multimodal Learning,
+  Brain Signals, and Privacy-Preserving AI.
+  Publications, research projects, and academic news.
 #footer_text: >
 #  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: academic-website, portfolio-website # add your own keywords or leave empty
+
+keywords: Guibo Luo, Peking University, Artificial Intelligence, Medical AI, Foundation Models, Federated Learning, EEG, Trustworthy AI
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
-url: https://LMIAPC.github.io # the base hostname & protocol for your site
+url: https://www.guiboluo.com # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
