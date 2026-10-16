@@ -1,1 +1,38 @@
 
+{% comment %}
+  News section for al-folio
+  Source: _data/news.yml
+  - Sort news by date (newest first)
+  - Limit items on homepage
+  - Show all items on News page
+  - Support Markdown formatting
+{% endcomment %}
+
+{% if site.data.news %}
+
+  {% assign all_news = site.data.news | sort: "date" | reverse %}
+  {% assign displayed_news = all_news %}
+
+  {% if page.announcements.limit %}
+    {% assign displayed_news = all_news | slice: 0, page.announcements.limit %}
+  {% endif %}
+
+  <div class="news">
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        {% for item in displayed_news %}
+          <tr>
+            <th scope="row"
+                style="width: 120px; white-space: nowrap; vertical-align: top;">
+              {{ item.date | date: "%b %d, %Y" }}
+            </th>
+            <td>
+              {{ item.text | markdownify }}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </div>
+
+{% endif %}
