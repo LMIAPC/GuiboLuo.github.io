@@ -51,9 +51,9 @@ article p {
 /* Publication badges: PKU red, taller, larger text */
 .publications .abbr .badge,
 .publications .abbr abbr {
-  background-color: #8c1d40 !important;
-  color: #ffffff !important;
-  border-color: #8c1d40 !important;
+  #background-color: #8c1d40 !important;
+  #color: #ffffff !important;
+  #border-color: #8c1d40 !important;
 
   font-size: 1rem !important;
   font-weight: 700 !important;
