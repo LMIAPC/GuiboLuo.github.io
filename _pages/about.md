@@ -22,6 +22,13 @@ announcements:
 #  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
 #  limit: 5 # leave blank to include all the blog posts
 ---
+
+<div style="text-align: right; margin-bottom: 15px;">
+  <a href="{{ '/zh/' | relative_url }}">
+    中文版 / Chinese Version
+  </a>
+</div>
+
 <style>
 .profile.float-left {
   width: 25% !important;
