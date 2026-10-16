@@ -2,7 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.ece.pku.edu.cn/info/1062/2227.htm'>Peking University</a>
+#subtitle: <a href='https://www.ece.pku.edu.cn/info/1062/2227.htm'>Peking University</a>
+subtitle: >-
+  <span style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; width:100%;">
+    <a href="https://www.ece.pku.edu.cn/info/1062/2227.htm">Peking University</a>
+    <a href="/zh/">中文版 / Chinese Version</a>
+  </span>
+
 
 profile:
   align: left
