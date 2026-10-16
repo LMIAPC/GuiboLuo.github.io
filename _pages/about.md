@@ -47,6 +47,26 @@ article p {
   font-weight: 400 !important;
   line-height: 1.55;
 }
+
+/* Publication badges: PKU red, taller, larger text */
+.publications .abbr .badge,
+.publications .abbr abbr {
+  background-color: #8c1d40 !important;
+  color: #ffffff !important;
+  border-color: #8c1d40 !important;
+
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+
+  /* Increase height without changing width */
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  line-height: 1.3 !important;
+
+  border-radius: 6px !important;
+  text-align: center !important;
+  box-sizing: border-box;
+}
 </style>
 I am an Assistant Professor and Ph.D. Supervisor at the School of Electronic and Computer Engineering, Peking University. Prior to joining Peking University, I conducted postdoctoral research at Harvard Medical School and Massachusetts General Hospital for nearly 4 years.
 
