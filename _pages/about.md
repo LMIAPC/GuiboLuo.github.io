@@ -27,6 +27,12 @@ announcements:
 #  limit: 5 # leave blank to include all the blog posts
 ---
 <style>
+  
+/* Remove top spacing on homepage */
+.container.mt-5[role="main"] {
+  margin-top: 0 !important;
+}
+
 .profile.float-left {
   width: 25% !important;
   max-width: 220px !important;
