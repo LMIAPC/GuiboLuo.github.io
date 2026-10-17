@@ -1,12 +1,9 @@
-
 ---
 layout: about
 title: 中文
 permalink: /zh/
 lang: zh-CN
-nav: true
-nav_order: 99
-
+nav: false
 
 subtitle: >-
   <span style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; width:100%;">
@@ -21,13 +18,9 @@ profile:
 
 selected_papers: false
 social: true
-
 announcements:
   enabled: false
 ---
-<div style="text-align: right;">
-  <a href="{{ '/' | relative_url }}">English Version</a>
-</div>
 
 ## 个人简介
 
@@ -49,7 +42,7 @@ announcements:
 
 ## 更多信息
 
-[论文成果]({{ '/zh/publications/' | relative_url }}) |
-[学术动态]({{ '/zh/news/' | relative_url }}) |
+[Publications]({{ '/publications/' | relative_url }}) |
+[News]({{ '/news/' | relative_url }}) |
 [Google Scholar](https://scholar.google.com/citations?user=kUIPmL4AAAAJ) |
 [alphaXiv](https://www.alphaxiv.org/@guibo-luo)
