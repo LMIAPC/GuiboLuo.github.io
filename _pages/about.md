@@ -8,8 +8,6 @@ subtitle: >-
     <a href="https://www.ece.pku.edu.cn/info/1062/2227.htm">Peking University</a>
     <a href="/zh/">中文版 / Chinese Version</a>
   </span>
-
-
 profile:
   align: left
   image: lgb_pic.png
