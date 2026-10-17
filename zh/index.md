@@ -40,11 +40,4 @@ announcements:
     nameHeading.textContent = "罗桂波";
   }
 </script>
-
-北京大学信息工程学院助理教授、博士生导师，曾在哈佛医学院及麻省总医院从事近四年的博士后研究。主要从事人工智能与医学智能交叉领域研究，包括医学基础模型、生理信号智能分析、隐私保护与跨机构协同学习等。研究工作涉及基础模型高效训练与推理、脑电及多模态生理行为建模、医学影像智能分割与辅助诊断，以及基础模型与轻量化模型的协同优化。研究成果发表于 IEEE TPAMI、IEEE JBHI、Radiology: AI、CVPR、ECCV、AAAI、ACL、USENIX Security、ICSE、IJCAI 和 MICCAI 等国际期刊及会议。
-
-## 更多信息
-[Publications]({{ '/publications/' | relative_url }}) |
-[News]({{ '/news/' | relative_url }}) |
-[Google Scholar](https://scholar.google.com/citations?user=kUIPmL4AAAAJ) |
-[alphaXiv](https://www.alphaxiv.org/@guibo-luo)
+北京大学信息工程学院助理教授/研究员、博士生导师，海外高层次人才，广东省高层次人才，“鹏城孔雀计划”特聘岗位专家。曾在哈佛大学医学院/麻省总医院从事博士后研究工作近4年。主要从事医学大模型、生理信号智能分析与多机构医学数据隐私协同计算研究。重点围绕大模型训练与推理优化、脑电及多模态生理行为建模、医学影像精准分割与诊断，以及基础模型与轻量模型协同优化等关键问题开展研究。相关方法已应用于神经发育疾病评估、智能健康监测，以及面向特殊人群的智能陪伴与干预辅助等场景。获得北京大学第二十四届青年教师教学基本功比赛优秀奖，获ACL SAC Highlights奖, MICCAI Best Paper Shortlist。发表了包括IEEE TPAMI、IEEE JBHI、Radiology: AI、IEEE TCSVT、IEEE TCDS、Journal of Digital Imaging、CVPR、ECCV、AAAI、ACL、USENIX 、ICSE 、IJCAI、MICCAI等国际顶级期刊和会议论文100多篇。
