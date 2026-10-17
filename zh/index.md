@@ -76,3 +76,49 @@ announcements:
 
 {% include selected_papers.liquid %}
 
+<style>
+.profile.float-left {
+  width: 25% !important;
+  max-width: 220px !important;
+  margin-right: 28px !important;
+  margin-bottom: 10px !important;
+}
+
+.profile img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 576px) {
+  .profile.float-left {
+    width: 40% !important;
+    max-width: 180px !important;
+    margin-right: 20px !important;
+  }
+}
+
+article p {
+  font-weight: 400 !important;
+  line-height: 1.55;
+}
+
+/* Publication badges: PKU red, taller, larger text */
+.publications .abbr .badge,
+.publications .abbr abbr {
+  #background-color: #8c1d40 !important;
+  #color: #ffffff !important;
+  #border-color: #8c1d40 !important;
+
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+
+  /* Increase height without changing width */
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  line-height: 1.3 !important;
+
+  border-radius: 6px !important;
+  text-align: center !important;
+  box-sizing: border-box;
+}
+</style>
