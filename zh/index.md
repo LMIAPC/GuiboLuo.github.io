@@ -23,13 +23,6 @@ announcements:
   scrollable: true
   limit: 5
 ---
-<style>
-  /* Hide the name in the top navbar on Chinese page */
-  #navbar .navbar-brand.title {
-    display: none !important;
-  }
-</style>
-
 <script>
   // Change the main heading to Chinese
   const nameHeading = document.querySelector(
