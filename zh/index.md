@@ -43,13 +43,6 @@ announcements:
 
 北京大学信息工程学院助理教授、博士生导师，曾在哈佛医学院及麻省总医院从事近四年的博士后研究。主要从事人工智能与医学智能交叉领域研究，包括医学基础模型、生理信号智能分析、隐私保护与跨机构协同学习等。研究工作涉及基础模型高效训练与推理、脑电及多模态生理行为建模、医学影像智能分割与辅助诊断，以及基础模型与轻量化模型的协同优化。研究成果发表于 IEEE TPAMI、IEEE JBHI、Radiology: AI、CVPR、ECCV、AAAI、ACL、USENIX Security、ICSE、IJCAI 和 MICCAI 等国际期刊及会议。
 
-## 研究方向
-- 医学基础模型
-- 脑电与多模态生理信号分析
-- 隐私计算与联邦学习
-- 大模型高效训练与推理
-- 智能体与多模态大语言模型
-
 ## 更多信息
 [Publications]({{ '/publications/' | relative_url }}) |
 [News]({{ '/news/' | relative_url }}) |
