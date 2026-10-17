@@ -1,11 +1,11 @@
 
 - date: 2026-09-30
   text: "Our EEG foundation model, **LEGEND**, has been shortlisted for the **MICCAI 2026 Best Paper Award (Top 0.5%)**!"
-  text_zh: "我们的脑电基础模型 **LEGEND** 入围 **MICCAI 2026 最佳论文奖（Top 0.5%）**！"
+  text_zh: "我们的脑电信号基础模型 **LEGEND** 入围 **MICCAI 2026 最佳论文奖（Top 0.5%）**！"
 
 - date: 2026-09-25
   text: "Our paper **BrainCoT**, a multi-task zero-shot foundation model for brain signals, has been accepted to **NeurIPS 2026**!"
-  text_zh: "我们的多任务零样本脑信号基础模型 **BrainCoT** 被 **NeurIPS 2026** 录用！"
+  text_zh: "我们的多任务零样本脑电信号基础模型 **BrainCoT** 被 **NeurIPS 2026** 录用！"
 
 - date: 2026-07-20
   text: "Our paper **COMET**, focusing on temporal reasoning in video multimodal large language models, has been accepted to **ACM Multimedia 2026**!"
@@ -13,7 +13,7 @@
 
 - date: 2026-07-07
   text: "Our paper **METIS**: A Language-Guided Multimodal Foundation Model for Zero-Shot and Multi-Task Brain Signal Analysis has been accepted to **Advanced Intelligent Systems**! The work was also featured by [Wiley](https://mp.weixin.qq.com/s/o8GsjuYzucea4l6lJ35LbA) and covered by [science media](https://mp.weixin.qq.com/s/I3VmY5FQiloQwVmyfmoJ1g)."
-  text_zh: "我们的语言引导多模态脑信号基础模型 **METIS** 被 **Advanced Intelligent Systems** 接收！该研究成果还获得了 [Wiley 官方报道](https://mp.weixin.qq.com/s/o8GsjuYzucea4l6lJ35LbA)及[科技媒体关注](https://mp.weixin.qq.com/s/I3VmY5FQiloQwVmyfmoJ1g)。"
+  text_zh: "我们的语言引导多模态脑电信号基础模型 **METIS** 被 **Advanced Intelligent Systems** 接收！该研究成果还获得了 [Wiley 官方报道](https://mp.weixin.qq.com/s/o8GsjuYzucea4l6lJ35LbA)及[科技媒体关注](https://mp.weixin.qq.com/s/I3VmY5FQiloQwVmyfmoJ1g)。"
 
 - date: 2026-07-05
   text: "Our paper **SeLaR** has received an **ACL 2026 SAC Highlight Award**!"
