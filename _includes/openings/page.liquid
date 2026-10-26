@@ -22,14 +22,6 @@
           <a class="op-button op-button-plain" href="#research">{{ op.hero.secondary_button | escape }}</a>
         </div>
       </div>
-      <aside class="op-hero-art" aria-label="AI research illustration">
-        <div class="op-orbit op-orbit-one"></div><div class="op-orbit op-orbit-two"></div>
-        <div class="op-node op-node-top">{{ op.hero.art.top | escape }}</div>
-        <div class="op-node op-node-right">{{ op.hero.art.right | escape }}</div>
-        <div class="op-node op-node-bottom">{{ op.hero.art.bottom | escape }}</div>
-        <div class="op-center-symbol"><span>{{ op.hero.art.center_top | escape }}</span><b>{{ op.hero.art.center_label | escape }}</b><small>{{ op.hero.art.center_bottom | escape }}</small></div>
-        <p class="op-art-caption">{{ op.hero.art.caption | escape }}</p>
-      </aside>
     </div>
   </section>
   <section class="op-section op-section-research" id="research" aria-labelledby="research-h">
@@ -85,7 +77,6 @@
         <article class="op-value-item"><span class="op-value-counter">{{ item.number | escape }}</span><h3>{{ item.heading | escape }}</h3><p>{{ item.text | escape }}</p></article>
         {% endfor %}
       </div>
-      <div class="op-ai-note"><span class="op-ai-symbol" aria-hidden="true">✳</span><p>{{ op.values.ai_note | escape }}</p></div>
     </div>
   </section>
   <section class="op-section op-section-support" id="support" aria-labelledby="support-h">
