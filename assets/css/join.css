@@ -94,8 +94,6 @@
   max-width: 850px;
 }
 
-#join-page .op-hero-art { display: none !important; }
-
 #join-page .op-local-switch {
   display: flex;
   align-items: center;
@@ -637,32 +635,7 @@
   line-height: 1.75;
 }
 
-#join-page .op-ai-note {
-  display: flex;
-  align-items: flex-start;
-  gap: 13px;
-  margin-top: 25px;
-  padding: 19px 21px;
-  border: 1px solid var(--op-line);
-  border-radius: 10px;
-  background: var(--op-soft);
-}
-
-#join-page .op-ai-symbol {
-  color: var(--op-red);
-  font-size: 23px;
-  line-height: 1.35;
-}
-
-#join-page .op-ai-note p {
-  margin: 0;
-  color: var(--op-muted);
-  font-size: 15.5px;
-  line-height: 1.83;
-}
-
 /* Optional legacy note: hidden if an older Liquid template remains in use. */
-#join-page .op-ai-note { display: none !important; }
 
 /* 6. Research environment */
 #join-page .op-section-support {
@@ -1030,7 +1003,7 @@ body[data-theme="dark"] #join-page .op-button-primary:hover {
 }
 
 @media print {
-  #join-page .op-hero-art,
+  
   #join-page .op-hero-actions,
   #join-page .op-button { display: none !important; }
   #join-page .op-section { padding: 17px 0; }
