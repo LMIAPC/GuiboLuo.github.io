@@ -1,0 +1,192 @@
+# Edit recruitment copy here. Shared HTML/CSS is in _includes/openings/page.liquid and assets/css/join.css.
+locale: en
+hero:
+  kicker: OPENINGS · JOIN OUR RESEARCH GROUP
+  title_before: 'Do research that '
+  title_emphasis: goes further.
+  title_after: ''
+  lead: We welcome curious, independent-minded researchers who want to pursue important questions over time—not
+    simply collect publications. Discover research directions, opportunities, and expectations across career stages.
+  highlights:
+  - number: 20+
+    text: group members
+  - number: ''
+    text: GPU resources
+  - number: ''
+    text: Global collaborations
+  primary_button: Explore opportunities ↗
+  secondary_button: Our research ↓
+  art:
+    top: Vision & Video
+    right: Reasoning
+    bottom: Life Signals
+    center_top: Real-world
+    center_label: AI
+    center_bottom: Intelligence
+    caption: Understand · Generate · Reason · Interact
+research:
+  eyebrow: 01 / Research focus
+  heading: Research that builds on itself
+  intro: Four interconnected research directions spanning medical imaging, physiological and behavioral intelligence, and advanced foundation models.
+  footnote: We encourage work across these themes, but prioritize coherent questions and cumulative progress over short-lived trends.
+  items:
+  - number: '01'
+    category: MEDICAL IMAGING AI
+    heading: Intelligent Analysis of Medical Imaging Data
+    text: Lesion detection and segmentation, disease recognition, quantitative analysis, and risk assessment across multi-center and multimodal imaging, with emphasis on generalization and clinical utility.
+    featured: true
+  - number: '02'
+    category: PHYSIOLOGICAL & BEHAVIORAL AI
+    heading: EEG and Multimodal Physiological–Behavioral Modeling
+    text: Integrating EEG, ECG, eye-tracking, video, and behavioral data for temporal representation learning, multimodal fusion, individual state estimation, and robust behavioral understanding.
+    featured: true
+  - number: '03'
+    category: TRAINING & INFERENCE
+    heading: Large-Model Training and Inference Optimization
+    text: Pretraining, parameter-efficient adaptation, reinforcement learning-based post-training, knowledge distillation, complex reasoning, and inference acceleration for reliable, efficient models.
+    featured: false
+  - number: '04'
+    category: UNIFIED FOUNDATION MODELS
+    heading: Unified Vision–Language and Multimodal Physiological Foundation Models
+    text: Unified representations and alignment across vision, language, EEG, and other physiological signals, enabling joint pretraining and multi-task understanding, reasoning, and generation.
+    featured: false
+positions:
+  eyebrow: 02 / Opportunities
+  heading: Find your place in the group
+  intro: Each stage has a different role. Choose a track to see the expected background and development goals.
+  detail_heading: Requirements & expectations
+  detail_intro: Select a role below to expand details. Milestones are developmental targets—not rigid hiring or
+    degree requirements.
+  footnote: All positions, funded places, salaries, and admissions depend on actual openings and the regulations
+    of the relevant institution or programme.
+  roles:
+  - id: postdoc
+    number: '01'
+    name: Postdoctoral Researchers
+    summary: Lead independent research and help grow a sustained research direction.
+    label: Research leadership
+    subtitle: Independent research · Collaboration · Mentorship
+    look_for_label: What we look for
+    look_for:
+    - Ph.D. in AI, computer science, electronic engineering or a related field, with solid research experience.
+    - Ability to identify worthwhile problems, design and carry out experiments, and lead research writing independently.
+    - Experience in high-quality academic publications and collaborative projects is valued.
+    develop_label: What you can develop
+    develop:
+    - Lead a focused research topic aligned with the group’s long-term priorities.
+    - Contribute to proposals and collaborations, and mentor junior researchers.
+    - Aim for 2–3 representative high-quality research outputs over an appropriate appointment period, while building
+      an independent academic identity.
+    note_label: A note on expectations
+    note: Development targets are discussed according to appointment duration and research maturity; they are not
+      mechanical publication quotas.
+    compensation:
+      label: POSTDOCTORAL SUPPORT
+      amount: RMB 400,000–600,000
+      qualifier: in total annual compensation for eligible postdoctoral researchers, subject to qualifications and institutional policies.
+  - id: phd
+    number: '02'
+    name: Ph.D. Students
+    summary: Explore one important problem deeply and develop a coherent research agenda.
+    label: Long-term research
+    subtitle: Deep exploration · Originality · Independent thinking
+    look_for_label: What we look for
+    look_for:
+    - Strong mathematical, programming, and machine-learning fundamentals.
+    - Research initiative, curiosity, and willingness to study a focused problem over multiple years.
+    - Prior publications are helpful but independent contributions and research potential matter more.
+    develop_label: What you can develop
+    develop:
+    - Develop a clear, connected research trajectory rather than disconnected one-off projects.
+    - An aspirational goal is 3–5 related, high-quality papers during the Ph.D., with impact and coherence more
+      important than the count.
+    - Gradually take responsibility for study design, writing, collaboration, and mentoring junior students.
+    note_label: A note on expectations
+    note: Admissions, eligibility, degree requirements, and funded places follow the relevant university and programme
+      regulations.
+  - id: master
+    number: '03'
+    name: Master’s Students
+    summary: Build strong research or engineering ability through a complete project.
+    label: Research + engineering
+    subtitle: Method development · Reproducible systems · Applied research
+    look_for_label: What we look for
+    look_for:
+    - Good programming, mathematical, or AI-related foundations.
+    - Reliability, a willingness to learn, and interest in research or research engineering.
+    develop_label: What you can develop
+    develop:
+    - Complete at least one end-to-end research or research-engineering project.
+    - Possible outputs include an academic study, a reusable training or evaluation framework, a model, or a research
+      prototype.
+    - Learn to document experiments and communicate findings clearly.
+    note_label: A note on expectations
+    note: Research and research-engineering pathways are equally valued when the work is rigorous and reusable.
+  - id: intern
+    number: '04'
+    name: Undergraduate Interns
+    summary: Start with understanding, reproduction, benchmarks, and real questions—not publication pressure.
+    label: Learn by doing
+    subtitle: Research foundations · 8–12 weeks · Flexible remote work
+    look_for_label: What we look for
+    look_for:
+    - Primarily open to second- and third-year undergraduates with basic programming skills and genuine curiosity.
+    - A suggested initial commitment is 8–12 weeks and roughly 6–10 hours per week, adjustable around academic schedules.
+    - No prior publication is required; communicate progress, ask questions, and report results honestly.
+    develop_label: What you can develop
+    develop:
+    - Understand and reproduce one representative experiment or method.
+    - Carry out one reproducible benchmark, robustness study, or failure-case analysis.
+    - 'Write a short evidence-based report: what worked, what failed, and what should be tested next.'
+    note_label: A note on expectations
+    note: A paper is not required and is not promised. Strong performers may be invited to participate in longer-term
+      projects, subject to fit, supervision capacity, and applicable programme rules.
+values:
+  eyebrow: 03 / Our approach
+  heading: A research culture built for the long term
+  intro: We value strong papers, but we care just as much about how good research is done.
+  items:
+  - number: '01'
+    heading: Curiosity
+    text: Ask why a method works, where it fails, and what is not yet understood.
+  - number: '02'
+    heading: Independent thinking
+    text: Go beyond reproducing numbers; question assumptions and test meaningful hypotheses.
+  - number: '03'
+    heading: Rigor
+    text: Make experiments reproducible, report negative results, and respect evidence.
+  - number: '04'
+    heading: Ownership
+    text: Take responsibility, communicate clearly, and follow difficult questions through.
+  - number: '05'
+    heading: Long-term contribution
+    text: Build reusable methods, datasets, systems, and knowledge with teammates.
+  ai_note: AI tools—including GPT—are welcome for learning and programming. Researchers must still understand their
+    methods, verify results, and take responsibility for research integrity.
+support:
+  eyebrow: 04 / Research environment
+  heading: Resources for meaningful research
+  intro: We aim to provide an environment where good ideas can develop through independent work and interdisciplinary
+    collaboration.
+  items:
+  - High-performance GPU resources and opportunities to work with contemporary foundation models.
+  - Academic collaboration across computing, AI, medical research, and clinical partners.
+  - Opportunities for international academic exchange and collaborative visits, subject to eligibility and available
+    support.
+  - Mentorship appropriate to career stage, with an emphasis on scientific independence and long-term growth.
+apply:
+  eyebrow: 05 / Get in touch
+  heading: Interested in joining?
+  intro: A concise, specific email is more useful than a heavily polished generic research statement.
+  email_label: EMAIL
+  email: luogb@pku.edu.cn
+  items:
+  - heading: For postdoc / graduate applicants
+    text: Send a CV and a short description of your contributions, research interests, and the problems you want
+      to explore. Include representative papers or projects if available.
+  - heading: For undergraduates
+    text: No elaborate proposal is required. Tell us what you have studied or reproduced, what questions you found
+      interesting, and how much time you can commit.
+  button_label: Email the group
+  button_url: mailto:luogb@pku.edu.cn?subject=%5BResearch%20Opportunity%5D%20Guibo%20Luo%20Group
+  footer: Enquiries are reviewed based on research fit and available supervision capacity.

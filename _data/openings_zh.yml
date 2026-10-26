@@ -1,0 +1,180 @@
+# Edit recruitment copy here. Shared HTML/CSS is in _includes/openings/page.liquid and assets/css/join.css.
+locale: zh-CN
+hero:
+  kicker: 研究机会 · 加入我们的团队
+  title_before: 做有积累、
+  title_emphasis: 有影响力
+  title_after: 的研究。
+  lead: 我们欢迎具有好奇心、独立思考能力和长期研究热情的同学与青年学者。比起简单追逐论文数量，我们更重视真正重要的问题、严谨的方法和持续积累的成果。
+  highlights:
+  - number: 20+
+    text: 位团队成员
+  - number: ''
+    text: 高性能 GPU 资源
+  - number: ''
+    text: 国际科研合作
+  primary_button: 查看招聘岗位 ↗
+  secondary_button: 了解研究方向 ↓
+  art:
+    top: 视觉与视频
+    right: 模型推理
+    bottom: 脑电与生命信号
+    center_top: 面向真实世界
+    center_label: AI
+    center_bottom: 智能基础模型
+    caption: 理解 · 生成 · 推理 · 交互
+research:
+  eyebrow: 01 / 研究方向
+  heading: 围绕长期问题持续积累
+  intro: 聚焦医学影像、生理行为智能与大模型关键技术，围绕四个相互支撑的研究方向开展长期探索。
+  footnote: 我们鼓励跨方向探索，但更重视科学问题的内在联系、长期积累与可验证的研究价值。
+  items:
+  - number: '01'
+    category: 医学影像智能
+    heading: 医学影像数据智能分析
+    text: 面向多中心、多模态医学影像，研究病灶检测与分割、疾病识别、定量分析及风险评估，提升模型的泛化能力与临床适用性。
+    featured: true
+  - number: '02'
+    category: 生理行为建模
+    heading: 脑电及多模态生理行为建模
+    text: 融合脑电、心电、眼动、视频等生理与行为数据，研究时序表征、多模态融合、个体状态估计、行为理解及跨场景泛化。
+    featured: true
+  - number: '03'
+    category: 训练与推理
+    heading: 大模型训练与推理优化
+    text: 研究大模型预训练、高效微调、强化学习后训练、知识蒸馏、复杂推理及推理加速，兼顾模型能力、可靠性与计算效率。
+    featured: false
+  - number: '04'
+    category: 多模态基础模型
+    heading: 视觉语言与多模态生理信号统一大模型
+    text: 探索视觉、语言、脑电及多类生理信号的统一表征、跨模态对齐与联合预训练，构建支持多任务理解、推理和生成的统一大模型。
+    featured: false
+positions:
+  eyebrow: 02 / 招生与招聘
+  heading: 寻找适合你的研究角色
+  intro: 博士后、博士生、硕士生和本科实习生有不同的发展目标。点击对应卡片查看具体要求。
+  detail_heading: 申请条件与发展预期
+  detail_intro: 点击下方岗位查看详情。所列阶段目标旨在帮助成长，并非僵硬的招生或学位要求。
+  footnote: 实际开放职位、经费资助、薪酬和招生资格均以当期名额及相关单位、项目规定为准。
+  roles:
+  - id: postdoc
+    number: '01'
+    name: 博士后研究人员
+    summary: 独立牵头科研课题，逐步形成持续发展的研究方向。
+    label: 独立科研与指导
+    subtitle: 独立科研 · 合作交流 · 指导学生
+    look_for_label: 我们期待你具备
+    look_for:
+    - 具有人工智能、计算机科学、电子工程或相关学科博士学位，并具备扎实的科研积累。
+    - 能够独立识别有价值的问题、设计并执行实验、主导论文写作。
+    - 具有高质量论文发表及团队协作经验者优先。
+    develop_label: 你将获得的成长
+    develop:
+    - 围绕团队长期方向独立牵头研究课题。
+    - 参与项目申请与合作研究，并指导年轻研究人员。
+    - 在适当聘期内力争形成 2–3 项具有代表性的高质量成果，逐步建立独立学术方向。
+    note_label: 关于预期
+    note: 科研目标将结合聘期、课题成熟度和个人发展协商确定，并非机械化的论文数量考核。
+    compensation:
+      label: 博士后待遇
+      amount: 综合年收入人民币40-60万元
+      qualifier: ，适用于符合条件的优秀博士后，具体以个人资历与单位政策为准。
+  - id: phd
+    number: '02'
+    name: 博士研究生
+    summary: 围绕重要问题长期深入探索，形成连贯的个人研究主线。
+    label: 长期课题研究
+    subtitle: 深入探索 · 原创研究 · 独立思考
+    look_for_label: 我们期待你具备
+    look_for:
+    - 具备扎实的数学、编程和机器学习基础。
+    - 具有科研主动性、好奇心，愿意多年持续研究一个核心问题。
+    - 已有论文是加分项，但更看重个人贡献、独立思考和研究潜力。
+    develop_label: 你将获得的成长
+    develop:
+    - 逐步建立清晰连贯的研究主线，避免彼此割裂的短期课题。
+    - 以博士阶段完成 3–5 篇相互关联的高质量论文作为努力方向，但更重视实际贡献、影响力和连贯性。
+    - 逐步承担实验设计、论文写作、合作与指导学弟学妹的工作。
+    note_label: 关于预期
+    note: 录取资格、培养要求、学位规定及招生名额均以相应学校和项目规定为准。
+
+  - id: master
+    number: '03'
+    name: 硕士研究生
+    summary: 通过完整项目建立扎实的科研能力与工程实践能力。
+    label: 科研与工程实践
+    subtitle: 方法研究 · 可复现系统 · 应用研究
+    look_for_label: 我们期待你具备
+    look_for:
+    - 具备一定的编程、数学或人工智能基础。
+    - 认真可靠、乐于学习，对科学研究或科研工程具有兴趣。
+    develop_label: 你将获得的成长
+    develop:
+    - 至少完成一项端到端的科研或科研工程项目。
+    - 成果可以是学术论文、可复用的训练或评测框架、模型或研究原型。
+    - 掌握实验记录、结果复现与清晰表达的方法。
+    note_label: 关于预期
+    note: 只要工作严谨且具有复用价值，科研与科研工程两条路径均受到重视。
+
+  - id: intern
+    number: '04'
+    name: 本科科研实习生
+    summary: 从文献阅读、方法复现与实验分析开始，培养真正的研究兴趣。
+    label: 从实践中学习
+    subtitle: 科研入门 · 建议 8–12 周 · 可协商远程参与
+    look_for_label: 我们期待你具备
+    look_for:
+    - 主要面向大二、大三本科生；具备基本编程能力和真实的科研兴趣。
+    - 建议首次参与 8–12 周、每周约 6–10 小时，可根据课程安排协商。
+    - 无需论文发表经历；希望能够定期汇报进展、主动提问并如实呈现结果。
+    develop_label: 你将获得的成长
+    develop:
+    - 理解并复现一项具有代表性的研究方法或实验。
+    - 完成一项可复现的基准测试、鲁棒性分析或失败案例分析。
+    - 形成简短、基于实验证据的总结：哪些有效、哪些失败、下一步如何验证。
+    note_label: 关于预期
+    note: 本科实习不要求或承诺发表论文。表现优秀者可在研究方向、指导资源和管理规定允许的情况下参与长期项目。
+
+values:
+  eyebrow: 03 / 科研理念
+  heading: 面向长期研究的团队文化
+  intro: 我们重视高质量成果，也同样重视科学研究的过程与方法。
+  items:
+  - number: '01'
+    heading: 好奇心
+    text: 追问方法为什么有效、在哪里失败，以及还有哪些未知。
+  - number: '02'
+    heading: 独立思考
+    text: 不止步于复现数字，勇于质疑假设并验证有意义的猜想。
+  - number: '03'
+    heading: 严谨求实
+    text: 重视可复现性，如实汇报负面结果，以证据作判断。
+  - number: '04'
+    heading: 责任意识
+    text: 主动承担责任、清晰沟通，将重要问题研究到底。
+  - number: '05'
+    heading: 长期贡献
+    text: 与团队共同构建可复用的方法、数据、系统与知识。
+  ai_note: 欢迎合理使用包括 GPT 在内的 AI 工具辅助学习和编程，但研究者必须理解方法、核实结果，并对科研诚信承担责任。
+support:
+  eyebrow: 04 / 科研环境
+  heading: 支持有意义的研究
+  intro: 我们希望通过稳定的科研条件、跨学科合作和适合不同职业阶段的指导，让好想法有机会成长为重要成果。
+  items:
+  - 充足的高性能 GPU 计算资源，以及开展前沿基础模型研究的条件。
+  - 涵盖计算机、人工智能、医学研究和临床机构的跨学科合作。
+  - 为优秀成员提供国际顶尖高校学术交流及合作访问机会，具体视资格与支持条件而定。
+  - 针对不同职业阶段提供指导，鼓励独立研究与长期发展。
+apply:
+  eyebrow: 05 / 联系与申请
+  heading: 欢迎加入我们的团队
+  email_label: 联系邮箱
+  email: luogb at pku dot edu dot cn
+  items:
+  - heading: 博士后 / 研究生申请者
+    text: 请提供简历、个人研究贡献与兴趣的简要介绍，以及希望探索的科学问题。如有代表性论文或项目，请附上链接。
+  - heading: 本科生实习申请者
+    text: 无需准备冗长的研究计划。请介绍已学习或复现的内容、感兴趣的问题，以及能够投入科研的时间。
+  button_label: 发送申请邮件
+  button_url: mailto:luogb@pku.edu.cn?subject=%5BResearch%20Opportunity%5D%20Guibo%20Luo%20Group
+  footer: 我们将依据研究方向匹配度和实际指导资源评估申请。
