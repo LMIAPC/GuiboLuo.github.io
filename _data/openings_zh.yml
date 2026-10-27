@@ -1,7 +1,7 @@
 # Edit recruitment copy here. Shared HTML/CSS is in _includes/openings/page.liquid and assets/css/join.css.
 locale: zh-CN
 hero:
-  kicker: 研究机会 · 加入我们的团队
+  kicker: 加入我们的团队
   title_before: 做有积累、
   title_emphasis: 有影响力
   title_after: 的研究。
@@ -9,6 +9,10 @@ hero:
   highlights:
   - number: 20+
     text: 位团队成员
+  - number: ''
+    text: 有深度的研究
+  - number: ''
+    text: 宽松的科研氛围
   - number: ''
     text: 高性能 GPU 资源
   - number: ''
@@ -27,7 +31,7 @@ research:
   eyebrow: 01 / 研究方向
   heading: 围绕长期问题持续积累
   intro: 聚焦医学影像、生理行为智能与大模型关键技术，围绕四个相互支撑的研究方向开展长期探索。
-  footnote: 我们鼓励跨方向探索，但更重视科学问题的内在联系、长期积累与可验证的研究价值。
+  footnote: 鼓励跨方向探索，重视科学问题的内在联系、长期积累与可验证的研究价值。
   items:
   - number: '01'
     category: 医学影像智能
@@ -110,7 +114,7 @@ positions:
     - 认真可靠、乐于学习，对科学研究或科研工程具有兴趣。
     develop_label: 你将获得的成长
     develop:
-    - 至少完成一项端到端的科研或科研工程项目。
+    - 至少完成一项真实有价值的科研或科研工程项目。
     - 成果可以是学术论文、可复用的训练或评测框架、模型或研究原型。
     - 掌握实验记录、结果复现与清晰表达的方法。
     note_label: 关于预期
@@ -121,11 +125,11 @@ positions:
     name: 本科科研实习生
     summary: 从文献阅读、方法复现与实验分析开始，培养真正的研究兴趣。
     label: 从实践中学习
-    subtitle: 科研入门 · 建议 8–12 周 · 可协商远程参与
+    subtitle: 科研入门 · 兴趣培养 · 可协商远程参与
     look_for_label: 我们期待你具备
     look_for:
     - 主要面向大二、大三本科生；具备基本编程能力和真实的科研兴趣。
-    - 建议首次参与 8–12 周、每周约 6–10 小时，可根据课程安排协商。
+    - 建议首次参与3个月以上，可根据课程安排协商。
     - 无需论文发表经历；希望能够定期汇报进展、主动提问并如实呈现结果。
     develop_label: 你将获得的成长
     develop:
@@ -133,7 +137,7 @@ positions:
     - 完成一项可复现的基准测试、鲁棒性分析或失败案例分析。
     - 形成简短、基于实验证据的总结：哪些有效、哪些失败、下一步如何验证。
     note_label: 关于预期
-    note: 本科实习不要求或承诺发表论文。表现优秀者可在研究方向、指导资源和管理规定允许的情况下参与长期项目。
+    note: 本科实习不要求发表论文，表现优秀者可在研究方向、指导资源和管理规定允许的情况下参与长期项目。
 
 values:
   eyebrow: 03 / 科研理念
@@ -152,13 +156,10 @@ values:
   - number: '04'
     heading: 责任意识
     text: 主动承担责任、清晰沟通，将重要问题研究到底。
-  - number: '05'
-    heading: 长期贡献
-    text: 与团队共同构建可复用的方法、数据、系统与知识。
-  ai_note: 欢迎合理使用包括 GPT 在内的 AI 工具辅助学习和编程，但研究者必须理解方法、核实结果，并对科研诚信承担责任。
+  ai_note: 欢迎合理使用 AI 工具辅助学习和编程，但研究者必须拥有独特思想、理解方法、核实结果，并对科研诚信承担责任。
 support:
   eyebrow: 04 / 科研环境
-  heading: 支持有意义的研究
+  heading: 支持有意义的研究与应用
   intro: 我们希望通过稳定的科研条件、跨学科合作和适合不同职业阶段的指导，让好想法有机会成长为重要成果。
   items:
   - 充足的高性能 GPU 计算资源，以及开展前沿基础模型研究的条件。
@@ -172,7 +173,7 @@ apply:
   email: luogb at pku dot edu dot cn
   items:
   - heading: 博士后 / 研究生申请者
-    text: 请提供简历、个人研究贡献与兴趣的简要介绍，以及希望探索的科学问题。如有代表性论文或项目，请附上链接。
+    text: 请提供简历、个人研究贡献与兴趣的简要介绍，以及希望探索的科学问题。
   - heading: 本科生实习申请者
     text: 无需准备冗长的研究计划。请介绍已学习或复现的内容、感兴趣的问题，以及能够投入科研的时间。
   button_label: 发送申请邮件
