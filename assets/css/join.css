@@ -1019,3 +1019,28 @@ body[data-theme="dark"] #join-page .op-button-primary:hover {
   #join-page .op-detail-body { display: block; }
   #join-page .op-role-detail { break-inside: avoid; }
 }
+
+
+/* Header: show the section kicker and the language switch on one row. */
+#join-page .op-hero-toprow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin-bottom: 22px;
+}
+#join-page .op-hero-toprow .op-kicker,
+#join-page .op-hero-toprow .op-local-switch {
+  margin: 0;
+}
+#join-page .op-hero-toprow .op-local-switch {
+  margin-left: auto;
+  flex-shrink: 0;
+  white-space: nowrap;
+  font-size: 16px;
+}
+@media (max-width: 640px) {
+  #join-page .op-hero-toprow { gap: 8px 14px; margin-bottom: 18px; }
+  #join-page .op-hero-toprow .op-local-switch { font-size: 14px; }
+}
