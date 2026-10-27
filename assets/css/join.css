@@ -123,7 +123,7 @@
 #join-page .op-kicker,
 #join-page .op-section-number {
   color: var(--op-red);
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 760;
   line-height: 1.55;
   letter-spacing: 0.065em;
@@ -183,7 +183,7 @@
   border-radius: 999px;
   background: var(--op-surface);
   color: var(--op-muted);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 650;
   line-height: 1.5;
 }
@@ -242,7 +242,7 @@
   color: var(--op-red);
 }
 
-/* 2. Section headings */
+/* 2. Section headings — clear, readable numbered section labels */
 #join-page .op-section { padding: 58px 0; }
 
 #join-page .op-section-heading {
@@ -275,7 +275,7 @@
 #join-page .op-under-note {
   margin: 19px 0 0;
   color: var(--op-muted);
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.85;
 }
 
@@ -313,13 +313,13 @@
 
 #join-page .op-research-num {
   color: var(--op-red);
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 800;
 }
 
 #join-page .op-research-category {
   color: var(--op-muted);
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 680;
   line-height: 1.45;
   letter-spacing: 0;
@@ -383,7 +383,7 @@
   border-radius: 8px;
   background: var(--op-soft-2);
   color: var(--op-red);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 800;
 }
 
@@ -399,7 +399,7 @@
   flex: 1;
   margin: 0 0 19px;
   color: var(--op-muted);
-  font-size: 14.5px;
+  font-size: 16px;
   line-height: 1.72;
 }
 
@@ -411,7 +411,7 @@
   padding-top: 13px;
   border-top: 1px solid var(--op-line);
   color: var(--op-ink);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 730;
   line-height: 1.5;
 }
@@ -440,7 +440,7 @@
 #join-page .op-detail-intro p {
   margin: 0;
   color: var(--op-muted);
-  font-size: 14.5px;
+  font-size: 16px;
   line-height: 1.8;
 }
 
@@ -467,7 +467,7 @@
 
 #join-page .op-detail-number {
   color: var(--op-red);
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 800;
 }
 
@@ -488,7 +488,7 @@
 
 #join-page .op-detail-title small {
   color: var(--op-muted);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.55;
 }
 
@@ -627,14 +627,14 @@
 
 #join-page .op-value-counter {
   color: var(--op-red);
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 780;
 }
 
 #join-page .op-value-item h3 {
   margin: 14px 0 9px;
   color: var(--op-ink);
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 730;
   line-height: 1.45;
 }
@@ -642,7 +642,7 @@
 #join-page .op-value-item p {
   margin: 0;
   color: var(--op-muted);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.75;
 }
 
@@ -757,7 +757,7 @@
 
 #join-page .op-email-label {
   color: var(--op-muted);
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 740;
   letter-spacing: 0.04em;
 }
@@ -880,7 +880,7 @@ body[data-theme="dark"] #join-page .op-button-primary:hover {
   }
 
   #join-page .op-kicker,
-  #join-page .op-section-number { font-size: 12.5px; }
+  #join-page .op-section-number { font-size: 16px; }
 
   #join-page .op-hero h1 {
     font-size: clamp(29px, 7vw, 36px);
@@ -899,7 +899,7 @@ body[data-theme="dark"] #join-page .op-button-primary:hover {
 
   #join-page .op-highlights span {
     padding: 6px 10px;
-    font-size: 13px;
+    font-size: 14.5px;
   }
 
   #join-page .op-hero-actions { margin-top: 23px; }
@@ -927,7 +927,7 @@ body[data-theme="dark"] #join-page .op-button-primary:hover {
   }
 
   #join-page .op-research-card p { font-size: 16px; }
-  #join-page .op-research-category { font-size: 12px; }
+  #join-page .op-research-category { font-size: 15px; }
 
   #join-page .op-section-positions { padding: 42px 0; }
 
@@ -937,8 +937,8 @@ body[data-theme="dark"] #join-page .op-button-primary:hover {
     padding: 17px 15px;
   }
   #join-page .op-role-card h3 { font-size: 17px; }
-  #join-page .op-role-card p { font-size: 14px; }
-  #join-page .op-role-foot { font-size: 13px; }
+  #join-page .op-role-card p { font-size: 15px; }
+  #join-page .op-role-foot { font-size: 15px; }
 
   #join-page .op-detail-intro {
     display: block;
@@ -954,7 +954,7 @@ body[data-theme="dark"] #join-page .op-button-primary:hover {
   }
 
   #join-page .op-detail-title b { font-size: 17px; }
-  #join-page .op-detail-title small { font-size: 13px; }
+  #join-page .op-detail-title small { font-size: 15px; }
 
   #join-page .op-detail-body {
     grid-template-columns: 1fr;
@@ -997,7 +997,7 @@ body[data-theme="dark"] #join-page .op-button-primary:hover {
   }
 
   #join-page .op-value-item h3 { font-size: 16px; }
-  #join-page .op-value-item p { font-size: 14px; }
+  #join-page .op-value-item p { font-size: 15px; }
 
   #join-page .op-support-grid {
     grid-template-columns: 1fr;
@@ -1027,7 +1027,7 @@ body[data-theme="dark"] #join-page .op-button-primary:hover {
   #join-page .op-role-card { min-height: 0; }
   #join-page .op-role-card p { margin-bottom: 20px; }
   #join-page .op-hero-actions { gap: 9px; }
-  #join-page .op-highlights span { font-size: 12.5px; }
+  #join-page .op-highlights span { font-size: 14px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
