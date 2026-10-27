@@ -7,6 +7,7 @@
    Works with the existing _includes/openings/page.liquid, without
    changing _pages/openings.md or _data/openings_*.yml.
 
+   Desktop research values now use 4 columns; mobile layouts adapt.
    All selectors are scoped to #join-page so the site's navigation,
    publication list, footer and other pages remain unchanged.
    ================================================================ */
@@ -26,7 +27,7 @@
 
   color: var(--op-ink);
   background: transparent;
-  font-size: 16.5px;
+  font-size: 18px;
   line-height: 1.8;
   letter-spacing: 0;
   padding-bottom: 32px;
@@ -123,7 +124,7 @@
 #join-page .op-kicker,
 #join-page .op-section-number {
   color: var(--op-red);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 760;
   line-height: 1.55;
   letter-spacing: 0.065em;
@@ -162,7 +163,7 @@
   margin: 0;
   max-width: 810px;
   color: var(--op-muted);
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 400;
   line-height: 1.85;
 }
@@ -183,7 +184,7 @@
   border-radius: 999px;
   background: var(--op-surface);
   color: var(--op-muted);
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 650;
   line-height: 1.5;
 }
@@ -258,7 +259,7 @@
 #join-page .op-section h2 {
   margin: 0;
   color: var(--op-ink);
-  font-size: clamp(27px, 3.5vw, 33px);
+  font-size: clamp(30px, 3.5vw, 36px);
   font-weight: 720;
   line-height: 1.36;
   letter-spacing: -0.024em;
@@ -268,14 +269,14 @@
   max-width: 350px;
   margin: 0 0 3px;
   color: var(--op-muted);
-  font-size: 15.5px;
+  font-size: 18px;
   line-height: 1.8;
 }
 
 #join-page .op-under-note {
   margin: 19px 0 0;
   color: var(--op-muted);
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.85;
 }
 
@@ -319,7 +320,7 @@
 
 #join-page .op-research-category {
   color: var(--op-muted);
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 680;
   line-height: 1.45;
   letter-spacing: 0;
@@ -329,7 +330,7 @@
 #join-page .op-research-card h3 {
   margin: 25px 0 11px;
   color: var(--op-ink);
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 720;
   line-height: 1.43;
   letter-spacing: -0.015em;
@@ -338,7 +339,7 @@
 #join-page .op-research-card p {
   margin: 0;
   color: var(--op-muted);
-  font-size: 16.5px;
+  font-size: 18px;
   line-height: 1.86;
 }
 
@@ -390,7 +391,7 @@
 #join-page .op-role-card h3 {
   margin: 18px 0 9px;
   color: var(--op-ink);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 730;
   line-height: 1.46;
 }
@@ -399,7 +400,7 @@
   flex: 1;
   margin: 0 0 19px;
   color: var(--op-muted);
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.72;
 }
 
@@ -411,7 +412,7 @@
   padding-top: 13px;
   border-top: 1px solid var(--op-line);
   color: var(--op-ink);
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 730;
   line-height: 1.5;
 }
@@ -433,14 +434,14 @@
 #join-page .op-detail-intro h3 {
   margin: 0;
   color: var(--op-ink);
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 720;
 }
 
 #join-page .op-detail-intro p {
   margin: 0;
   color: var(--op-muted);
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.8;
 }
 
@@ -488,7 +489,7 @@
 
 #join-page .op-detail-title small {
   color: var(--op-muted);
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.55;
 }
 
@@ -543,7 +544,7 @@
   margin: 0;
   padding-left: 22px;
   color: var(--op-muted);
-  font-size: 15.5px;
+  font-size: 17px;
   line-height: 1.88;
 }
 
@@ -558,7 +559,7 @@
   border-radius: 9px;
   background: var(--op-soft);
   color: var(--op-muted);
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.8;
 }
 
@@ -589,14 +590,14 @@
   border-radius: 9px;
   background: var(--op-soft);
   color: var(--op-muted);
-  font-size: 14.5px;
+  font-size: 17px;
   line-height: 1.75;
 }
 
 #join-page .op-compensation-label {
   margin-right: 8px;
   color: var(--op-ink);
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 730;
 }
 
@@ -609,32 +610,34 @@
 /* 5. Research culture */
 #join-page .op-values-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   border-top: 1px solid var(--op-line);
   border-bottom: 1px solid var(--op-line);
 }
 
 #join-page .op-value-item {
-  margin-right: 16px;
-  padding: 24px 15px 26px 0;
+  margin-right: 0;
+  padding: 27px 23px 28px;
   border-right: 1px solid var(--op-line);
 }
 
 #join-page .op-value-item:last-child {
-  margin-right: 0;
+  padding-right: 0;
   border-right: 0;
 }
 
+#join-page .op-value-item:first-child { padding-left: 0; }
+
 #join-page .op-value-counter {
   color: var(--op-red);
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 780;
 }
 
 #join-page .op-value-item h3 {
   margin: 14px 0 9px;
   color: var(--op-ink);
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 730;
   line-height: 1.45;
 }
@@ -642,7 +645,7 @@
 #join-page .op-value-item p {
   margin: 0;
   color: var(--op-muted);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.75;
 }
 
@@ -688,7 +691,7 @@
 #join-page .op-support-lead {
   margin: 17px 0 0;
   color: var(--op-muted);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.85;
 }
 
@@ -717,7 +720,7 @@
 #join-page .op-support-item p {
   margin: 0;
   color: var(--op-muted);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.84;
 }
 
@@ -787,7 +790,7 @@
 #join-page .op-apply-body p {
   margin: 0;
   color: var(--op-muted);
-  font-size: 15.5px;
+  font-size: 17px;
   line-height: 1.85;
 }
 
@@ -850,16 +853,27 @@ body[data-theme="dark"] #join-page .op-button-primary:hover {
 
   #join-page .op-role-card { min-height: 235px; }
 
+  /* Four values become a balanced two-by-two grid on tablets. */
   #join-page .op-values-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  #join-page .op-value-item:nth-child(3) {
+  #join-page .op-value-item,
+  #join-page .op-value-item:first-child,
+  #join-page .op-value-item:last-child {
     margin-right: 0;
+    padding: 24px 22px;
+  }
+
+  #join-page .op-value-item:nth-child(odd) {
+    border-right: 1px solid var(--op-line);
+  }
+
+  #join-page .op-value-item:nth-child(even) {
     border-right: 0;
   }
 
-  #join-page .op-value-item:nth-child(n + 4) {
+  #join-page .op-value-item:nth-child(n + 3) {
     border-top: 1px solid var(--op-line);
   }
 
@@ -868,7 +882,7 @@ body[data-theme="dark"] #join-page .op-button-primary:hover {
 
 /* 10. Phones */
 @media (max-width: 640px) {
-  #join-page { font-size: 16px; }
+  #join-page { font-size: 17px; }
 
   #join-page .op-hero {
     padding: 12px 0 33px;
@@ -880,7 +894,7 @@ body[data-theme="dark"] #join-page .op-button-primary:hover {
   }
 
   #join-page .op-kicker,
-  #join-page .op-section-number { font-size: 16px; }
+  #join-page .op-section-number { font-size: 17px; }
 
   #join-page .op-hero h1 {
     font-size: clamp(29px, 7vw, 36px);
@@ -908,7 +922,7 @@ body[data-theme="dark"] #join-page .op-button-primary:hover {
   #join-page .op-section { padding: 42px 0; }
   #join-page .op-section h2 { font-size: 27px; }
   #join-page .op-section-heading { margin-bottom: 21px; }
-  #join-page .op-section-heading > p { font-size: 15px; }
+  #join-page .op-section-heading > p { font-size: 17px; }
 
   #join-page .op-research-grid {
     grid-template-columns: 1fr;
@@ -926,8 +940,8 @@ body[data-theme="dark"] #join-page .op-button-primary:hover {
     font-size: 20px;
   }
 
-  #join-page .op-research-card p { font-size: 16px; }
-  #join-page .op-research-category { font-size: 15px; }
+  #join-page .op-research-card p { font-size: 17px; }
+  #join-page .op-research-category { font-size: 16px; }
 
   #join-page .op-section-positions { padding: 42px 0; }
 
@@ -937,8 +951,8 @@ body[data-theme="dark"] #join-page .op-button-primary:hover {
     padding: 17px 15px;
   }
   #join-page .op-role-card h3 { font-size: 17px; }
-  #join-page .op-role-card p { font-size: 15px; }
-  #join-page .op-role-foot { font-size: 15px; }
+  #join-page .op-role-card p { font-size: 16px; }
+  #join-page .op-role-foot { font-size: 16px; }
 
   #join-page .op-detail-intro {
     display: block;
@@ -954,7 +968,7 @@ body[data-theme="dark"] #join-page .op-button-primary:hover {
   }
 
   #join-page .op-detail-title b { font-size: 17px; }
-  #join-page .op-detail-title small { font-size: 15px; }
+  #join-page .op-detail-title small { font-size: 16px; }
 
   #join-page .op-detail-body {
     grid-template-columns: 1fr;
@@ -968,36 +982,31 @@ body[data-theme="dark"] #join-page .op-button-primary:hover {
     grid-column: 1;
   }
 
-  #join-page .op-detail-col ul { font-size: 15px; }
+  #join-page .op-detail-col ul { font-size: 17px; }
   #join-page .op-detail-note { display: block; }
   #join-page .op-detail-note p { margin-top: 4px; }
 
+  /* On phones, show one full-width research value per row. */
   #join-page .op-values-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 1fr);
   }
 
-  #join-page .op-value-item {
-    margin-right: 10px;
-    padding-right: 11px;
-  }
-
-  #join-page .op-value-item:nth-child(3) {
-    margin-right: 10px;
-    border-right: 1px solid var(--op-line);
-  }
-
+  #join-page .op-value-item,
+  #join-page .op-value-item:first-child,
+  #join-page .op-value-item:last-child,
+  #join-page .op-value-item:nth-child(odd),
   #join-page .op-value-item:nth-child(even) {
-    margin-right: 0;
-    padding-left: 9px;
+    margin: 0;
+    padding: 18px 0 20px;
     border-right: 0;
   }
 
-  #join-page .op-value-item:nth-child(n + 3) {
+  #join-page .op-value-item:not(:first-child) {
     border-top: 1px solid var(--op-line);
   }
 
-  #join-page .op-value-item h3 { font-size: 16px; }
-  #join-page .op-value-item p { font-size: 15px; }
+  #join-page .op-value-item h3 { font-size: 20px; }
+  #join-page .op-value-item p { font-size: 17px; }
 
   #join-page .op-support-grid {
     grid-template-columns: 1fr;
