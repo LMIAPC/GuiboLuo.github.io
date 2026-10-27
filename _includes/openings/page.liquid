@@ -1,17 +1,19 @@
-<link rel="stylesheet" href="{{ '/assets/css/join.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/join.css' | relative_url }}?v=20261028b">
 {% assign op = include.content %}
 <div id="join-page" class="op-page" lang="{{ op.locale }}">
   <section class="op-hero" aria-labelledby="op-hero-title">
     <div class="op-shell op-hero-grid">
       <div class="op-hero-copy">
-        <nav class="op-local-switch" aria-label="Language">
-          {% if op.locale == 'zh-CN' %}
-            <a href="{{ '/openings/' | relative_url }}" lang="en">English</a><span aria-hidden="true">/</span><span aria-current="page">中文</span>
-          {% else %}
-            <span aria-current="page">English</span><span aria-hidden="true">/</span><a href="{{ '/zh/openings/' | relative_url }}" lang="zh-CN">中文</a>
-          {% endif %}
-        </nav>
-        <p class="op-kicker"><span class="op-kicker-line" aria-hidden="true"></span>{{ op.hero.kicker | escape }}</p>
+        <div class="op-hero-toprow">
+          <p class="op-kicker"><span class="op-kicker-line" aria-hidden="true"></span>{{ op.hero.kicker | escape }}</p>
+          <nav class="op-local-switch" aria-label="Language">
+            {% if op.locale == 'zh-CN' %}
+              <a href="{{ '/openings/' | relative_url }}" lang="en">English</a><span aria-hidden="true">/</span><span aria-current="page">中文</span>
+            {% else %}
+              <span aria-current="page">English</span><span aria-hidden="true">/</span><a href="{{ '/zh/openings/' | relative_url }}" lang="zh-CN">中文</a>
+            {% endif %}
+          </nav>
+        </div>
         <h1 id="op-hero-title">{{ op.hero.title_before | escape }}<em>{{ op.hero.title_emphasis | escape }}</em>{{ op.hero.title_after | escape }}</h1>
         <p class="op-lead">{{ op.hero.lead | escape }}</p>
         <div class="op-highlights" aria-label="Group highlights">
