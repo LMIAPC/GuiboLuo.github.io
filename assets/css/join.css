@@ -1082,3 +1082,31 @@ body[data-theme="dark"] #join-page .op-button-primary:hover {
   #join-page .op-hero-toprow { gap: 8px 14px; margin-bottom: 18px; }
   #join-page .op-hero-toprow .op-local-switch { font-size: 14px; }
 }
+/* Join Us: 标题与语言切换同一行 */
+#join-page .op-hero-copy {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  column-gap: 18px;
+  align-items: center;
+}
+
+#join-page .op-hero-copy > .op-kicker {
+  grid-column: 1;
+  grid-row: 1;
+  margin-bottom: 22px;
+}
+
+#join-page .op-hero-copy > .op-local-switch {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: end;
+  margin-bottom: 22px;
+  white-space: nowrap;
+}
+
+#join-page .op-hero-copy > h1,
+#join-page .op-hero-copy > .op-lead,
+#join-page .op-hero-copy > .op-highlights,
+#join-page .op-hero-copy > .op-hero-actions {
+  grid-column: 1 / -1;
+}
