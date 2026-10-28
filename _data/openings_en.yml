@@ -53,7 +53,7 @@ positions:
   detail_intro: Select a role to see what we value and the kind of work you could pursue. Research milestones are aspirations, not universal admission or graduation requirements.
   footnote: Openings, funding, compensation, admissions eligibility, degree arrangements, and any programme-specific language requirements are subject to the current policies of the relevant host institution and programme. International applicants should consult official admission or appointment information.
   roles:
-    - id: postdoc
+    - id: Postdoc
       number: '01'
       name: Postdoctoral Researchers
       summary: Shape an independent research agenda while working across AI and biomedical disciplines.
