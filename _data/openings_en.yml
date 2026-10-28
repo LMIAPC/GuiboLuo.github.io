@@ -26,24 +26,24 @@ research:
   footnote: We welcome ideas that cross these boundaries, especially when they address a clear research question and can be tested rigorously.
   items:
     - number: '01'
-      category: MEDICAL IMAGING AI
+      category: Medical Imaging AI
       heading: Intelligent Medical Image Analysis
-      text: Develop AI methods for lesion detection and segmentation, disease recognition, quantitative imaging, and risk assessment across institutions and imaging modalities, with particular attention to robustness and clinical relevance.
+      text: We develop methods for lesion detection and segmentation, disease recognition, quantitative analysis, and risk assessment using multi-center and multimodal medical imaging data, with a focus on generalization across heterogeneous clinical environments and real-world applicability.
       featured: true
     - number: '02'
-      category: HUMAN-CENTERED MULTIMODAL AI
-      heading: EEG and Multimodal Physiological–Behavioral Modeling
-      text: Study EEG, ECG, eye tracking, video, and behavioral signals through temporal representation learning, multimodal fusion, human-state estimation, and generalization across individuals and settings.
+      category: Physiological & Behavioral Intelligence
+      heading: EEG and Multimodal Physiological-Behavioral Modeling
+      text: We investigate temporal representation learning, multimodal fusion, human-state estimation, and behavioral understanding by integrating EEG, ECG, eye-tracking, video, and other physiological and behavioral signals, with an emphasis on generalization across individuals and real-world settings.
       featured: true
     - number: '03'
-      category: MODEL TRAINING & REASONING
-      heading: Efficient Training and Reasoning for Large AI Models
-      text: Investigate pretraining, efficient adaptation, reinforcement learning-based post-training, knowledge distillation, advanced reasoning, and inference optimization, balancing capability, reliability, and computational cost.
+      category: Multimodal Foundation Models
+      heading: Multimodal Foundation Models & Efficient Training and Reasoning
+      text: We explore unified representations and cross-modal alignment across vision, language, and physiological signals, alongside foundation model pretraining, reinforcement learning-based post-training, knowledge distillation, advanced reasoning, and inference optimization to improve model capabilities and computational efficiency.
       featured: false
     - number: '04'
-      category: UNIFIED FOUNDATION MODELS
-      heading: Unified Vision–Language and Physiological Foundation Models
-      text: Develop shared representations across vision, language, EEG, and other physiological signals through cross-modal alignment and joint pretraining, aiming to support understanding, reasoning, and generation across tasks.
+      category: Trustworthy Collaborative Learning
+      heading: Federated Learning & Privacy-Preserving AI
+      text: We study personalized federated learning, privacy-preserving methods, communication-efficient collaboration, knowledge transfer, and federated foundation models, addressing data heterogeneity, privacy constraints, and decentralized learning to enable trustworthy and efficient AI across institutions and distributed environments.
       featured: false
 positions:
   eyebrow: 02 / OPPORTUNITIES
