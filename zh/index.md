@@ -47,7 +47,7 @@ announcements:
     }
   });
 </script>
-北京大学信息工程学院助理教授/研究员、博士生导师，海外高层次人才，广东省高层次人才，“鹏城孔雀计划”特聘岗位专家。曾在哈佛大学医学院/麻省总医院从事博士后研究工作近4年。主要从事医学大模型、生理信号智能分析与多机构医学数据隐私协同计算研究。重点围绕大模型训练与推理优化、脑电及多模态生理行为建模、医学影像精准分割与诊断，以及基础模型与轻量模型协同优化等关键问题开展研究。相关方法已应用于神经发育疾病评估、智能健康监测，以及面向特殊人群的智能陪伴与干预辅助等场景。获得北京大学第二十四届青年教师教学基本功比赛优秀奖，获ACL SAC Highlights奖, MICCAI Best Paper Shortlist。发表了包括IEEE TPAMI、IEEE JBHI、Radiology: AI、IEEE TCSVT、IEEE TCDS、Journal of Digital Imaging、CVPR、ECCV、AAAI、ACL、USENIX 、ICSE 、IJCAI、MICCAI等国际顶级期刊和会议论文100多篇。
+北京大学信息工程学院助理教授/研究员、博士生导师，独立课题组负责人（PI），海外高层次人才，广东省高层次人才，“鹏城孔雀计划”特聘岗位专家。曾在哈佛大学医学院/麻省总医院从事博士后研究工作近4年。主要从事医学大模型、生理信号智能分析与多机构医学数据隐私协同计算研究。重点围绕大模型训练与推理优化、脑电及多模态生理行为建模、医学影像精准分割与诊断，以及基础模型与轻量模型协同优化等关键问题开展研究。相关方法已应用于神经发育疾病评估、智能健康监测，以及面向特殊人群的智能陪伴与干预辅助等场景。获得北京大学第二十四届青年教师教学基本功比赛优秀奖，获ACL SAC Highlights奖, MICCAI Best Paper Shortlist。发表了包括IEEE TPAMI、IEEE JBHI、Radiology: AI、IEEE TCSVT、IEEE TCDS、Journal of Digital Imaging、CVPR、ECCV、AAAI、ACL、USENIX 、ICSE 、IJCAI、MICCAI等国际顶级期刊和会议论文100多篇。
 
 团队现有成员20余人，包括教授、研究员、高级工程师及硕博士研究生，配备充足的高性能 GPU 计算资源，并为优秀团队成员提供赴国际顶尖高校开展学术交流与研究访问的机会。**[团队长期面向海内外招收硕士、博士研究生及招聘博士后研究人员。](https://www.guiboluo.com/zh/openings/)** 优秀博士后综合年收入可达人民币60万元，具体待遇根据个人条件及相关政策确定。同时欢迎大二、大三本科生参与科研交流与实习。**[了解更多招生与招聘信息 →](https://www.guiboluo.com/zh/openings/)**
 <div style="clear: both;"></div>
